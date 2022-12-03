@@ -3,12 +3,12 @@ from typing import List
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        numsMap = {}
+        nums_map = {}
         for i, num in enumerate(nums):
             remaining = target - num
-            if remaining in numsMap:
-                return [numsMap[remaining], i]
-            numsMap[num] = i
+            if remaining in nums_map:
+                return [nums_map[remaining], i]
+            nums_map[num] = i
 
 
 if __name__ == "__main__":
