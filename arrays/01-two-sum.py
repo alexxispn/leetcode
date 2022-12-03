@@ -32,3 +32,7 @@ if __name__ == "__main__":
     nums5 = [0, 4, 3, 0]
     target5 = 0
     assert solution.twoSum(nums5, target5) == [0, 3]
+
+    nums6 = [-1]
+    target6 = -1
+    assert solution.twoSum(nums6, target6) is None
