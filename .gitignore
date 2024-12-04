@@ -20,3 +20,5 @@ dist/
 
 # Misc
 .DS_Store
+/.idea/git_toolbox_blame.xml
+/pnpm-lock.yaml
