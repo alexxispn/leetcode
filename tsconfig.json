@@ -9,6 +9,9 @@
     "strict": true
   },
 
-  "include": ["src/**/*"],
+  "include": [
+    "src/**/*",
+    "node_modules/.pnpm/vitest@1.5.2_@types+node@20.14.12/node_modules/vitest/globals.d.ts"
+  ],
   "exclude": ["node_modules"]
 }
